@@ -12,6 +12,8 @@
 		5D33B69121911295003D5258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B68F21911295003D5258 /* Main.storyboard */; };
 		5D33B6932191129D003D5258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6922191129D003D5258 /* Assets.xcassets */; };
 		5D33B6962191129D003D5258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33B6942191129D003D5258 /* LaunchScreen.storyboard */; };
+		5D5DA04921955927003349EA /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5DA04821955927003349EA /* ChemicalElement.swift */; };
+		5D5DA04B219559A6003349EA /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5DA04A219559A6003349EA /* MyExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D33B6922191129D003D5258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D33B6952191129D003D5258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D33B6972191129D003D5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5DA04821955927003349EA /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
+		5D5DA04A219559A6003349EA /* MyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5D33B6922191129D003D5258 /* Assets.xcassets */,
 				5D33B6942191129D003D5258 /* LaunchScreen.storyboard */,
 				5D33B6972191129D003D5258 /* Info.plist */,
+				5D5DA04821955927003349EA /* ChemicalElement.swift */,
+				5D5DA04A219559A6003349EA /* MyExtension.swift */,
 			);
 			path = ElementQuiz;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				5D33B68E21911295003D5258 /* ViewController.swift in Sources */,
 				5D33B68C21911295003D5258 /* AppDelegate.swift in Sources */,
+				5D5DA04921955927003349EA /* ChemicalElement.swift in Sources */,
+				5D5DA04B219559A6003349EA /* MyExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = ElementQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = ElementQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
